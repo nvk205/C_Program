@@ -1,0 +1,48 @@
+| Lệnh                      | Dùng để làm gì                            |
+| ------------------------- | ----------------------------------------- |
+| `git init`                | Tạo Git repo trong folder                 |
+| `git status`              | Xem trạng thái file                       |
+| `git add .`               | Thêm tất cả file vào vùng chuẩn bị commit |
+| `git commit -m "message"` | Lưu một phiên bản code                    |
+| `git push`                | Đẩy code lên GitHub                       |
+| `git pull`                | Lấy code mới từ GitHub về                 |
+| `git clone <link>`        | Tải repo về máy                           |
+| `git log --oneline`       | Xem lịch sử commit ngắn gọn               |
+| `git remote -v`           | Xem repo GitHub đang kết nối              |
+| `git branch`              | Xem nhánh hiện tại                        |
+| `git branch -M main`      | Đổi tên nhánh chính thành main            |
+git remote add origin https://github.com/nvk205/C_program.git
+
+$ git remote add <name> <link>
+
+git remote -v //check
+
+$ git init
+
+$ git clone https://github.com/user/repository.git
+
+$ git branch  //dùng để kiểm tra branch hiện tại
+
+$ git branch <name_branch>  //Để tạo mới một branch
+
+$ git checkout -b <name_branch>  //Để chuyển và tạo mới
+
+$ git checkout <name_branch>
+
+$ git add .
+
+$ git commit -m "Message"
+
+$ git push origin <name_branch>
+
+$ git remote add origin <remote_url>
+
+$ git push origin <name_branch>
+
+$ git checkout master
+
+$ git merge <new_branch>
+
+$ git log
+
+$ git pull origin master
